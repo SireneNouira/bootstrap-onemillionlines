@@ -49,9 +49,11 @@ a{
     text-align: center;
     justify-content: center;
     height: 65vh;
+    width: 100%;
     background-image:url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+  
 }
 #home div h1{
     font-size: 50px;
@@ -62,16 +64,22 @@ a{
 }
 #home div{
     padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
 }
-#home button{
+#home a{
     margin-top: 20px;
-    font-size:xx-large;
+    /* font-size:; */
     background-color: red;
     border-radius: 5px;
     border: none;
+    padding: 10px 25px;
+    
 }
-#home div{
-    display: flex;
-    flex-direction: column;
-
+#home img {
+    width: 50px;
+padding-top: 10px;
 }
