@@ -16,3 +16,62 @@
 @media (max-width: 767px) {
 
 }
+*{
+    margin: 0;
+padding: 0;
+}
+header{
+    background-color:rgba(34,34,34,255);
+}
+header img{
+    margin-left: 100px;
+}
+p, h1{
+    color: white;
+}
+nav{
+    padding: 15px;
+    margin-right: 200px;
+    
+}
+nav p{
+    font-size: 20px;
+    margin: 10px;
+    float: inline-end;
+    justify-self:right;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.background-home{
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    height: 65vh;
+    background-image:url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#home div h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#home div p{
+    font-size: 22px;
+}
+#home div{
+    padding: 150px;
+}
+#home button{
+    margin-top: 20px;
+    font-size:xx-large;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+}
+#home div{
+    display: flex;
+    flex-direction: column;
+
+}
